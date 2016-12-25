@@ -10,7 +10,7 @@ Array.prototype.count = function(){
 }
 
 
-var parallel_function = function (array_of_funcs, final_func) {
+exports.parallel_function = function (array_of_funcs, final_func) {
 	var result = [];
 	array_of_funcs.forEach(function (val, i) {
 		val(function (err, res) {
@@ -25,3 +25,4 @@ var parallel_function = function (array_of_funcs, final_func) {
 		})
 	})
 };
+
