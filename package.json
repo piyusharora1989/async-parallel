@@ -1,0 +1,30 @@
+{
+  "name": "async-parallel",
+  "version": "1.0.0",
+  "description": "Running functions asynchronously",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyusharora1989/async-parallel.git"
+  },
+  "keywords": [
+    "running",
+    "async",
+    "function",
+    "parallely",
+    "and",
+    "getting",
+    "output",
+    "from",
+    "all."
+  ],
+  "author": "Piyush Arora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyusharora1989/async-parallel/issues"
+  },
+  "homepage": "https://github.com/piyusharora1989/async-parallel#readme"
+}
